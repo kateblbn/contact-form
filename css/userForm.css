@@ -1,0 +1,50 @@
+.user {
+    animation: backInLeft;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+
+}
+.container {
+    background-color:rgb(210, 213, 213);
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(117, 112, 112);
+    transition: 0.5s all;
+}
+form {
+    padding: 5px 0;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.user__title {
+    padding: 15px 0 5px 0;
+    color:rgb(119, 120, 120);
+    font-weight: 700;
+    font-size: 20px;
+}
+.user__subtitle {
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+input {
+    height: 25px;
+    padding: 0 3px;
+    margin-bottom: 5px;
+}
+textarea {
+    padding: 7px;
+}
+.form__flex {
+    display: flex;
+justify-content: space-between;
+}

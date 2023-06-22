@@ -1,0 +1,44 @@
+.user__info {
+    animation: backInLeft;
+    animation-duration: 2s;
+    animation-delay: 0,5s;
+}
+.user__img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.wrapp {
+    padding: 0 50px ;
+}
+.user__info {
+    padding: 25px 0;
+}
+.title {
+    margin: 0;
+    color:rgb(126, 125, 123);
+    font-weight: 700;
+}
+.user__items {
+    display: flex;
+    margin: 15px 0;
+}
+.user__carrier {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.user__name {
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.user__prof {
+    color:rgb(126, 125, 123);
+    font-size: 15px;
+}
+.line {
+    width: 300px;
+    border: 0.5px solid black;
+}

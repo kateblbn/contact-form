@@ -1,0 +1,22 @@
+button {
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(191, 184, 184);
+    font-size: 13px;
+}
+button:hover {
+    background-color: rgb(228, 219, 219);
+    transition: 0.5s all;
+}
+.btn {
+    margin-top: 10px;
+}
+.btn__length {
+width: 100%;
+margin-bottom: 15px;
+font-weight: 700;
+color:rgb(80, 82, 82);
+}
